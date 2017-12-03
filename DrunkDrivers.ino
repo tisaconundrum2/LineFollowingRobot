@@ -5,9 +5,6 @@ Servo rightServo;
 
 int isObstaclePin = 8;
 int isObstacle = HIGH;
-const int FAST = 30;
-const int SLOW = 10;
-const int STOP = 0;
 
 void setup() {
   leftServo.attach(9);
