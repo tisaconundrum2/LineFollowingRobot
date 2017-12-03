@@ -22,10 +22,10 @@ void loop() {
 void runn() {
   isObstacle = digitalRead(isObstaclePin);
   if (isObstacle == LOW) {
-    delay(20); // read yellow
+    delay(20); // read yellow paper
     setAction(130, 0); // slight backward, forward
   } else {
-    delay(20); // read black
+    delay(20); // read black tape
     setAction(200, 165); // forward, slight backward
   }
 }
