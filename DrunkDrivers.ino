@@ -23,10 +23,10 @@ void runn() {
   isObstacle = digitalRead(isObstaclePin);
   if (isObstacle == LOW) {
     delay(20); // read yellow
-    setAction(130, 0); // slight down, up
+    setAction(130, 0); // slight backward, forward
   } else {
     delay(20); // read black
-    setAction(200, 165); // up, slight down
+    setAction(200, 165); // forward, slight backward
   }
 }
 
